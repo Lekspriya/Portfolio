@@ -1,0 +1,48 @@
+.navbar {
+  background-color: #000; /* Ensure the background color is black */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+  overflow: hidden;
+}
+
+.navbar.scrolled {
+  background-color: #333; /* Change background color when scrolled */
+}
+
+.navbar a {
+  color: white;
+  margin: 0 15px;
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #ffea00;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 10px;
+    background-color: #000; /* Ensure the background color is black on small screens */
+  }
+
+  .navbar.scrolled {
+    background-color: #333; /* Change background color when scrolled on small screens */
+  }
+
+  .navbar a {
+    margin: 5px 0;
+  }
+}

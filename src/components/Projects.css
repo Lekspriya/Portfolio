@@ -1,0 +1,60 @@
+/* src/components/Projects.css */
+.projects {
+  padding: 60px;
+  background-color: #f4f4f4;
+}
+
+.project-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.project {
+  margin: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.project img:hover {
+  transform: scale(1.05);
+}
+
+.project h3 {
+  margin-top: 15px;
+  color: #333;
+}
+
+.project p {
+  padding: 0 15px;
+  color: #555;
+}
+
+.project a {
+  display: block;
+  padding: 15px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 0 0 10px 10px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.project a:hover {
+  background-color: #0056b3;
+}

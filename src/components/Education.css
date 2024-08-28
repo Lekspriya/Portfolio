@@ -1,0 +1,22 @@
+/* src/components/Education.css */
+.education {
+    padding: 60px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .education h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+  
+  .education ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .education li {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
